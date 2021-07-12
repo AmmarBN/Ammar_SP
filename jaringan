@@ -1,0 +1,79 @@
+xclear
+
+sleep 1
+echo
+figlet SJ | lolcat
+echo " v1.0"
+echo " Stabilkan Jaringan"
+echo "Welcome To Script Ammar B.N"
+echo
+sleep 2
+echo "Menu Tools :"
+echo "[1], Satbilkan jaringan"
+echo "[2], spamcall"
+echo "[2], Exit Tools"
+echo
+read -p "Masukkan Pilihan Anda : " pil
+if [[ $pil == 1 ]]; then
+
+clear
+echo "Stabilkan jaringan by Ammar"
+ping -s1000 1.1.1.1
+fi
+
+if [[ $pil == 2 ]]; then
+clear
+echo 'Masukkan nomor awalan 8××××××××××'
+read -p "Masukkan No Target : " nomor
+figlet Untuk Menyepam Dibutuhkan Connection Internet | lolcat
+echo 'Sabar Masih Load Tod'
+echo '.10%'
+
+echo '..20%'
+
+echo '...30%'
+
+echo '....40%'
+
+echo '.....50%'
+
+echo '......60%'
+
+echo '.......70%'
+
+echo '........80%'
+
+echo '.........90%'
+
+echo '..........100%'
+echo 'clear tod'
+echo 'Sabar tod:v'
+echo 'Lagi nyepam'
+
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
+curl -s $link
+figlet Spam Sukses | lolcat
+echo 'Terimakasih Telah Menggunakan Tools Ini'
+echo 'Jangan Lupa Balik Lagi Tod'
+fi
+
+if [[ $pil == 3 ]]; then
+echo 'SABAR'
+echo 'SABAR'
+echo 'SABAR'
+echo 'SABAR'
+echo 'SABAR'
+echo 'SABAR'
+echo 'SABAR'
+echo 'Mencoba Login'
+echo 'Mencoba Login'
+echo 'Mencoba Login'
+echo 'Mencoba Login'
+echo 'Mencoba Login'
+echo 'Mencoba Login'
+echo 'Mencoba Login'
+echo 'Mencoba Login'
+clear
+login
+exit
+fi
